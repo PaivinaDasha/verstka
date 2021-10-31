@@ -1,0 +1,84 @@
+.wrapper{
+    max-width: 998px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+header	{height:200px;}
+nav		{background:#070;}
+main		{clear:both; padding: 0;}
+article	{display: inline-block; width:85%;	min-height:200px; margin-left:-4px;}
+aside	{display: inline-block; width:15%; vertical-align: top; height:auto;}
+footer	{background:#770;}
+.clear	{clear:both;
+}
+ul 			{display: block;   margin: 0;   padding: 0;   list-style: none;}
+ul:after 	{display: block;   content: ' ';   clear: both;   float: none;}
+ul.menu > li 	{ float: left;    position: relative; }
+
+ul.menu > li > a 	{display: block;   padding: 10px;   color: white;  
+					background-color: red;  text-decoration: none; }
+ul.menu > li > a:hover {background-color: black;}
+.a1{
+    color:black;
+   font: bold italic 18px Arial;
+}
+.a1:hover{
+    background-color: #077;  
+    cursor: pointer; 
+}
+.a2{
+    color:black;
+    font-size:15px;
+}
+.a2:hover{
+    background-color: rgb(255, 94, 0);  
+    cursor: pointer; 
+}
+.block{
+    background-color: rgb(255, 34, 200);  
+    color:black;
+    font: bold italic 18px Arial;
+}
+.block:hover{
+    background-color: #077;  
+    cursor: pointer;   
+}
+.block:active{
+    border:1px solid blue;   
+}
+.block1{
+    width:151px;
+    height:210px;
+    border:1px white solid; 
+}
+.block1:hover{
+    border:1px red solid; 
+    cursor: pointer; 
+}
+
+  @media (min-width: 480px) {
+    article { width: 100%;  height: auto;    background: aqua;  }
+    #text:after {  content: "480";  }.b2{
+        float:none;
+        font-family: 'Marck Script', cursive;
+    }
+}
+@media (min-width: 960px) {
+    article {   width: 700px;    height: auto;     background: blue;    }
+    #text:after {    content: "960";  }
+    .b2{
+        float:left;
+        width: 26%;
+        font-family: 'Marck Script', cursive;
+    }
+}
+@media (min-width: 1200px) {
+    article {     width: 848px;     height: auto;     background: gray;    }
+    .b2{
+        float:left;
+        width: 23%;
+        font-family: 'Marck Script', cursive;
+    }
+    #text:after {   content: "1200";   }
+}
