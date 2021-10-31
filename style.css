@@ -69,7 +69,7 @@ ul.menu > li > a:hover {background-color: black;}
     #text:after {    content: "960";  }
     .b2{
         float:left;
-        width: 26%;
+        width: 50%;
         font-family: 'Marck Script', cursive;
     }
 }
